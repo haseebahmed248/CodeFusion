@@ -8,7 +8,7 @@ function NavBar() {
     >
         <img src={react} alt='Image' className='w-10 h-10 mr-2' />
         <h2 
-        className='text-white text-4xl'
+        className='text-orange-400 font-bold text-4xl'
         >Logo</h2>
     </div>
   )

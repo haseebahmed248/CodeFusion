@@ -1,0 +1,27 @@
+.runner-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 20px;
+  }
+  
+  .run-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .run-button:hover {
+    background-color: #218838;
+  }
+  
+  .run-icon {
+    margin-right: 8px;
+  }
+  
