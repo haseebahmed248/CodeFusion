@@ -10,7 +10,7 @@ function Runner() {
   const handleRunClick = () => {
     console.log(code);
     console.log("Run button clicked");
-    axios.post("http://localhost:4000/code/run",{
+    axios.post("https://code-fusion-backend.vercel.app/run",{
       code:code,
       language:"javascript"
 
