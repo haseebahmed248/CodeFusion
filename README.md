@@ -21,4 +21,5 @@ CodeFusion is a modern web development project designed to streamline and enhanc
    ```
    npm install```
 5. Run both  frontEnd and Backend
-   ``` npm run dev ```
+   ```
+   npm run dev ```
