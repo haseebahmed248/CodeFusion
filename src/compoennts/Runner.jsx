@@ -15,8 +15,8 @@ function Runner() {
       language:"javascript"
 
     }).then((res)=>{
-      console.log(res.data);
-      setOutput(res.data.output);
+      console.log(res);
+      setOutput(res.data);
     }).catch((err)=>{
       console.log(err);
     } )

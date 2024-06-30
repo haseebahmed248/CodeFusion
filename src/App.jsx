@@ -11,7 +11,7 @@ function App() {
     <div>
       <Extras>
         <NavBar />
-        <div className="flex justify-between max-w-full p-8 max-h-fit bg-1a1a1a">
+        <div className="max-w-full p-8 max-h-fit bg-1a1a1a md:flex">
           <CodeEditor language='javascript' value='console.log("Hello World")' onChange={(value) => console.log(value)} />
           <Output />
         </div>
