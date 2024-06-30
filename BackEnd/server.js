@@ -10,6 +10,9 @@ app.use(cors({
 }))
 
 app.use("/code",MainRouter);
+app.get("/",(req,res)=>{
+    res.send("hello world")
+})
 
 app.listen(process.env.PORT,()=>{
     console.log(`Server is running ${process.env.PORT}`)
